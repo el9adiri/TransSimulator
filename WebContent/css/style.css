@@ -1,0 +1,40 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+}
+
+#map {
+	float: left;
+	width: 60%;
+	height: 100%;
+}
+
+#ligend {
+	width: 40%;
+	height: 10%;
+	float: left;
+}
+
+#app {
+	overflow:hidden;
+	float: left;
+	width: 40%;
+	height: 90%;
+}
+
+#myResult{
+	visibility:hidden;
+	overflow:scroll;
+	height: 90%;
+}
+
+#formApp{
+	text-align:center;
+	padding-top: 10px;
+}
+
+radio{
+	bottom:8px;
+}
